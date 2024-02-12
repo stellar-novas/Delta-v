@@ -68,3 +68,20 @@
           Quantity: 9
   - type: SolutionTransfer
     maxTransferAmount: 9
+
+- type: entity
+  id: CartridgeSpecialHeartbreaker
+  name: cartridge (.38 special heartbreaker)
+  parent: BaseCartridgeSpecial
+  components:
+  - type: CartridgeAmmo
+    proto: BulletSpecialHeartbreaker
+  - type: ChemicalAmmo
+  - type: SolutionContainerManager
+    solutions:
+      ammo:
+        reagents:
+        - ReagentId: HeartbreakerToxin
+          Quantity: 4
+  - type: SolutionTransfer
+    maxTransferAmount: 4

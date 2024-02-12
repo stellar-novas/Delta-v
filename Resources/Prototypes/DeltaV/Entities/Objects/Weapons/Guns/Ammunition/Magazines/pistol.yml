@@ -86,3 +86,17 @@
       map: ["enum.GunVisualLayers.Base"]
     - state: mag-1
       map: ["enum.GunVisualLayers.Mag"]
+
+- type: entity
+  id: MagazinePistolSpecialHeartbreaker
+  name: pistol magazine (.38 special heartbreaker)
+  parent: BaseMagazinePistolSpecial
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeSpecialHeartbreaker
+  - type: Sprite
+    layers:
+    - state: heartbreaker
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
